@@ -3,5 +3,5 @@ RUN mkdir /app
 COPY api/app/ /app/
 WORKDIR /app
 RUN npm install
-EXPOSE 3000/tcp
+EXPOSE 3000
 ENTRYPOINT ["node","server.js"]
