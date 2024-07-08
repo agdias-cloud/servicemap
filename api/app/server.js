@@ -16,7 +16,7 @@ app.use('/api/v1/recursos/nome', recursos);
 app.use('/api/v1/recursos/id', recursos);
 
 
-app.listen(port, '0.0.0.0', () => console.log(`Now running on port ${port}`))
+app.listen(port,  () => console.log(`Now running on port ${port}`))
 
 
 
